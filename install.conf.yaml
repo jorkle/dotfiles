@@ -1,0 +1,31 @@
+- link:
+    ~/.zshrc:
+      path: zshrc
+      relink: true
+      force: true
+    ~/.zprofile:
+      path: zprofile
+      relink: true
+      force: true
+    ~/.tmux.conf.local:
+      path: tmux.conf.local
+      relink: true
+      force: true
+    ~/.config:
+      glob: true
+      create: true
+      path: config/**
+      relink: true
+      force: true
+    ~/.oh-my-zsh:
+      glob: true
+      create: true
+      path: oh-my-zsh/**
+      relink: true
+      force: true
+    ~/.local/share/fonts:
+      glob: true
+      create: true
+      path: local/share/fonts/**
+      relink: true
+      force: true
