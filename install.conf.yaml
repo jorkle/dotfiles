@@ -7,6 +7,10 @@
       path: zprofile
       relink: true
       force: true
+    ~/.tmux.conf:
+      path: tmux.conf
+      relink: true
+      force: true
     ~/.tmux.conf.local:
       path: tmux.conf.local
       relink: true
@@ -29,3 +33,4 @@
       path: local/share/fonts/**
       relink: true
       force: true
+
