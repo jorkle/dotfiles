@@ -1,0 +1,18 @@
+[profiles/default]
+background-color='#2E2E34344040'
+background-darkness=0.94999999999999996
+background-type='transparent'
+bold-color='#D8D8DEDEE9E9'
+bold-color-same-as-fg=false
+custom-command='/bin/zsh -c "tmux new-session -A -s main"'
+default-show-menubar=false
+font='Operator Mono Lig Light 12'
+foreground-color='#E5E5E9E9F0F0'
+palette='#43434C4B5E5E:#D4D419191919:#8F8FBCBCBBBB:#FEFEA4A44C4C:#5E5E8181ACAC:#8F8FBCBCBBBB:#8888C0C0D0D0:#ECECEFEFF4F4:#191983838888:#ECEC01010101:#4747D4D4B9B9:#FFFF8A8A1818:#5E5E8181ACAC:#8F8FBCBCBBBB:#5E5E8181ACAC:#ECECEFEFF4F4'
+scrollback-unlimited=true
+scrollbar-position='hidden'
+silent-bell=true
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+visible-name='Default'
