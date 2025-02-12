@@ -33,4 +33,7 @@
       path: local/share/fonts/**
       relink: true
       force: true
-
+    ~/Pictures/wild.png:
+      path: wild.png
+      relink: true
+      force: true

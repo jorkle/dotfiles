@@ -103,3 +103,4 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="$HOME/.local/bin:$PATH"
+export VAGRANT_HOME="/data/ad-lab/.vagrant/"
