@@ -203,3 +203,4 @@ for_window [class="net-runelite-client-RuneLite"] move to workspace $ws3
 for_window [class="vesktop"] move to workspace $ws6
 for_window [class="xterm"] move to workspace $ws1
 for_window [class="kitty"] move to workspace $ws1
+exec_always "xinput set-prop 11 'libinput Accel Profile Enabled' 0, 1"
