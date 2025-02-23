@@ -35,5 +35,6 @@
       force: true
     ~/Pictures/wild.png:
       path: wild.png
+      create: true
       relink: true
       force: true
