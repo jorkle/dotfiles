@@ -102,5 +102,23 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="$HOME/.local/bin:$PATH"
-export VAGRANT_HOME="/data/ad-lab/.vagrant/"
+path+=("/usr/local/go/bin")
+path+=("$HOME/.local/bin")
+path+=("$HOME/go/bin")
+export GOPATH="$HOME/go/"
+export -U PATH
+export GOAD_LAB_DIR="/data/labs/goad"
+export VAGRANT_HOME="/data/labs/goad/.vagrant/"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/jorkle/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<
