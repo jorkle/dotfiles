@@ -107,8 +107,6 @@ path+=("$HOME/.local/bin")
 path+=("$HOME/go/bin")
 export GOPATH="$HOME/go/"
 export -U PATH
-export GOAD_LAB_DIR="/data/labs/goad"
-export VAGRANT_HOME="/data/labs/goad/.vagrant/"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

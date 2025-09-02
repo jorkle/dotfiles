@@ -64,7 +64,7 @@ wm-restack = bspwm
 
 # Top modules
 top-left = rofi-run bspwm workspace-name
-top-center = spotify
+top-center = spotify pomodoro
 top-right = keyboard pulseaudio date
 
 # Bottom modules
